@@ -1,0 +1,3 @@
+SELECT Nom, Prenom
+FROM Candidat
+WHERE naissance > CURRENT_DATE - INTERVAL '18' YEAR
